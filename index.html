@@ -9,15 +9,20 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+    
 	<body>
+        <div class="hameid-loader-overlay"></div>
+        
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+                
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-cube"></span>
+							<span > 
+                                <img src="images/s-white.png" height="60%" width="60%" style="margin-top: 20%">
+                            </span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -52,7 +57,7 @@
 							<article id="work">
                                 <h2 class="major">Schedule</h2>
 							<ul class="timeline">
-    <li><div class="tldate">Apr 2014</div></li>
+    <li><div class="tldate">8th November</div></li>
     
     <li>
       <div class="tl-circ"></div>
@@ -82,7 +87,7 @@
       </div>
     </li>
     
-    <li><div class="tldate">Mar 2014</div></li>
+    <li><div class="tldate">9th november</div></li>
     
     <li>
       <div class="tl-circ"></div>
@@ -135,7 +140,7 @@
     </li>
 -->
     
-    <li><div class="tldate">Feb 2014</div></li>
+    <li><div class="tldate">10th November</div></li>
     
     <li class="timeline-inverted">
       <div class="tl-circ"></div>
@@ -467,15 +472,26 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</footer>
 
 			</div>
+         
 
 		<!-- BG -->
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+            <!-- Preloader -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            jQuery(window).load(function(){
+                jQuery(".hameid-loader-overlay").fadeOut(3000);
+            });
+        </script>
+        <script src="/assets/js/particles.js"></script>
+            
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            
 
 	</body>
 </html>

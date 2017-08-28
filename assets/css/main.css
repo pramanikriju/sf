@@ -1840,4 +1840,15 @@
     right: auto;
   }
 }
-    
+
+
+/* preloader */ 
+/* Preloader */
+.hameid-loader-overlay {
+    width: 100%;
+    height: 100%;
+    background: url('images/strawberry.png') center no-repeat #FFF;
+    z-index: 99999;
+    position: fixed;
+}
+ 
